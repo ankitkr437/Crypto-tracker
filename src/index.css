@@ -1,0 +1,90 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ .home,.coin-app{
+   background-image:url('./Banner3.jpg');
+     height: 100%;
+     background-position: center;  
+     background-repeat: no-repeat; 
+     background-size: cover;
+     width: 100%; 
+    
+      
+ }
+ link{
+     text-decoration: none;
+ }
+ .Header{
+     width: 100%;
+ }
+ .Banner-container{
+     background-image:url('./Banner3.jpg');
+     height: 47vh;
+     background-position: center;  
+     background-repeat: no-repeat; 
+     background-size: cover;
+     width: 100%;
+ }
+
+ .carousel-indicators {
+     display: none;
+ }
+
+ .navlist{
+     margin: 0 15px;
+ }
+
+ .singlecoin{
+     width:100%;
+     background-color: rgba(7, 0, 0, 0.849);
+     color: white;
+     display: flex;
+    padding-top: 3%;
+ }
+ .left-sidebar{
+     width: 40%;
+     float: left;
+     border-right: 2px solid rgb(236, 236, 118);
+     color: aqua;
+ }
+ .left-compo{
+     display: flex;
+     flex-direction: column;
+     padding-left: 30px;
+     padding-right: 20px;
+     color: rgb(180, 189, 56);
+ }
+ #rank{
+     color: rgb(180, 189, 56);
+     font-weight: bold;
+ }
+ .right-sidebar{
+    width: 50%;
+    float: right;
+    min-height: 100%;
+}
+
+.rowlist{
+    margin:10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .singlecoin{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-sidebar{
+        width: 100%;
+        border-right:none;
+        border-bottom: 2px solid rgb(236, 236, 118);
+    }
+    .left-compo{
+        align-items: flex-start;
+    }
+    .right-sidebar{
+       width: 100%;
+   } 
+  }
